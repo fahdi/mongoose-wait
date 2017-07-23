@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "debug": "^2.6.8",
+    "mongodb": "^2.2.30",
+    "util": "^0.10.3",
+    "wait-for-mongoose": "^0.2.0"
+  },
+  "scripts": {
+    "dev": "DEBUG=mongoose-wait:* nodemon index.js",
+    "start": "DEBUG=mongoose-wait:* node index.js",
+    "test": "nodemon test.js",
+    "eslint": "node ./node_modules/eslint/bin/eslint.js .",
+    "eslintf": "node ./node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
